@@ -1,0 +1,65 @@
+# 参考：https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# Unity项目文件夹
+/[Ll]ibrary
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# 内存捕获可能过大或包含敏感数据
+/[Mm]emoryCaptures/
+
+# 自动生成
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# 缓存
+/.vs/
+/.vscode/
+/.idea/
+/.gradle
+
+# 自动生成解决方案或项目文件
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity生成的meta文件
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity生成的文件或崩溃报告
+sysinfo.txt
+crashlytics-build.properties
+
+# 临时生成的安卓资产
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# 构建资产
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Untity下的测试文件夹
+/Assets/ZTest
+/Assets/ZTest.meta
+
+
